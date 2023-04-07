@@ -34,7 +34,7 @@ use Magento\Framework\Stdlib\DateTime\Filter\Date;
 use Mageplaza\BannerSlider\Controller\Adminhtml\Slider;
 use Mageplaza\BannerSlider\Model\SliderFactory;
 use RuntimeException;
-use Zend_Filter_Input;
+//use Zend_Filter_Input;
 
 /**
  * Class Save
@@ -188,8 +188,8 @@ class Save extends Slider
      */
     protected function _filterData($data)
     {
-        $inputFilter = new Zend_Filter_Input(['from_date' => $this->_dateFilter,], [], $data);
-        $data = $inputFilter->getUnescaped();
+        //$inputFilter = new Zend_Filter_Input(['from_date' => $this->_dateFilter,], [], $data);
+        //$data = $inputFilter->getUnescaped();
 
         if (isset($data['responsive_items'])) {
             unset($data['responsive_items']['__empty']);
