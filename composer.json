@@ -2,10 +2,10 @@
   "name": "zhinenglong/module-banner-slider",
   "description": "Magento 2 Banner Slider extension",
   "require": {
-    "zhinenglong/module-core": "^1.5.2"
+    "zhinenglong/module-core": "^1.5.3"
   },
   "type": "magento2-module",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "license": "proprietary",
   "authors": [
     {
